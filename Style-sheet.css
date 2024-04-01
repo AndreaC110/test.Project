@@ -1,56 +1,73 @@
 <link>
 <a>
 
-/* Website Style Sheet */
-<style> 
+
+
+a:link{  
+    color:rgb(251, 244, 233)
+}
+
+a:focus {
+    color:rgb(251, 244, 233)
+}
+h2 {
+   container-type:inline-size ; width:fit-content
+}
+
+h1 {
+    color: black(141, 141, 230); background-color: #e1f0e5(255, 255, 255);
+}
+
+h3 {
+    color: black(141, 141, 230); background-color: rgb(255, 255, 255);font-size: large; font-weight: normal; font-style:oblique; font-family:Georgia
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    color: rgb(0, 0, 0); font-size: large; font-weight: normal; font-style:oblique; font-family:Georgia
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+a {
+    color: lightblue; 
 }
 
-nav {
-    background-color: #eee;
-    padding: 10px;
+
+body, a{
+    background-color: #e1f0e5(218, 212, 212, 0.722);
+}
+<p class="intro">
+
+p.intro {  
+    font-style: normal;  
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+p, h1 {
+    margin-bottom: 0.2em;
 }
 
-nav li {
-    float: left;
+h2, h3 {
+    width: auto; margin-bottom: auto; text-align: justify;
 }
 
-nav li a {
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+img#img3 {
+    float: top;    align-items: center;
+
 }
 
-nav li a:hover {
-    background-color: #ddd;
+img#img0 {
+    float: top; align-items: center; size-adjust: auto;
 }
 
-section {
-    padding: 20px;
+img#img1 {
+    align-items: center; size-adjust: auto;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+img#img2 {
+    align-items: center; size-adjust: auto;
 }
 
-</style>
+br {
+    color:black;
+}
+
+“img[title~="court cases"] {border: 3px solid;}”
+“li#sleestak { color: rgb(237, 237, 135); }”

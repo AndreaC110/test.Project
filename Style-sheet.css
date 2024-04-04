@@ -49,25 +49,32 @@ h2, h3 {
 }
 
 img#img3 {
-    float: top;    align-items: center;
+    float: top;  size-adjust: auto ;  align-items: center;
 
 }
 
 img#img0 {
-    float: top; align-items: center; size-adjust: auto;
+    float: top; align-items: center; size-adjust: auto; width: fit-content;
 }
 
 img#img1 {
-    align-items: center; size-adjust: auto;
+    align-items: center; size-adjust: auto; width: fit-content;
 }
 
 img#img2 {
-    align-items: center; size-adjust: auto;
+    align-items: center; size-adjust: auto; width: fit-content;
 }
 
 br {
     color:black;
 }
+
+button {
+  color: black;
+}
+
+<button { color= "black"} ></button>
+
 
 “img[title~="court cases"] {border: 3px solid;}”
 “li#sleestak { color: rgb(237, 237, 135); }”

@@ -1,8 +1,6 @@
 <link>
 <a>
 
-
-
 a:link{  
     color:rgb(251, 244, 233)
 }
@@ -40,29 +38,25 @@ p.intro {
     font-style: normal;  
 }
 
-p, h1 {
-    margin-bottom: 0.2em;
-}
-
 h2, h3 {
     width: auto; margin-bottom: auto; text-align: justify;
 }
 
 img#img3 {
-    float: top;  size-adjust: auto ;  align-items: center;
+    float: bottom;  size-adjust: auto ;  align-items: center;
 
 }
 
 img#img0 {
-    float: top; align-items: center; size-adjust: auto; 
+    float: bottom; align-items: center; size-adjust: auto; 
 }
 
 img#img1 {
-    align-items: center; size-adjust: auto; 
+   float: bottom; align-items: center; size-adjust: auto; 
 }
 
 img#img2 {
-    align-items: center; size-adjust: auto; 
+    float: bottom ; size-adjust: auto; 
 }
 
 br {

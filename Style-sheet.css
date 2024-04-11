@@ -1,6 +1,8 @@
 <link>
 <a>
 
+
+
 a:link{  
     color:rgb(251, 244, 233)
 }
@@ -65,4 +67,24 @@ br {
 
 button {
   color: black;
+}
+
+@media (max-width: 600px) {
+    .body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+        }
+
+@media (orientation: portrait) {
+    .body {
+        background-color: lightblue;
+    }
+}
+
+@media (orientation: landscape) {
+    .body {
+        background-color: lightgreen;
+    }
 }

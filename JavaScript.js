@@ -15,5 +15,5 @@ otheritem = document.getElementById("buttontest");
 thebutton.addEventListener("click", onButtonClick);
 
 function onButtonClick(color) {  
-    otheritem.style.color = "White";  
+    otheritem.style.color = "Green";  
 }
